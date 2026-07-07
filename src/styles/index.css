@@ -1,11 +1,80 @@
-/* 
 
-    You can write your own styles here...
+body{
+    background-color: black;
+                  
+            
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    color:#ff2bd6
+}
+.contador{
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 0 8px #ff2bd6,
+                 0 0 18px #ff2bd6;
+    background-color: black;
+    font-size: 8vw;
+    margin-top: 2vw;
+    margin-right: 8vw;
+    margin-left: 8vw;
+    border-radius: 1.5vw;
+    border: 1px solid blue;
+}
+.hours{
+    display:flex;
+    align-items: center;
+}
+.minutes{
+    display: flex;
+    align-items: center;
+}
+.seconds{
+    display: flex;
+}
+.firstDigit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222 ;
+    border: 1px solid #ff2bd6;
+    height: 10vw;
+    width: 10vw;
+    margin: 3vw 0.5vw 3vw 0.5vw;
+    padding: 3% 0 3%;
+    border-radius: 1.5vw;
     
+}
+.secondDigit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    border: 1px solid #ff2bd6;
+    height: 10vw;
+    width: 10vw;
+    margin: 3vw 0.5vw 3vw 0.5vw;
+    padding: 3% 0 3%;
+    border-radius: 1.5vw;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+                
+}
+.icon {
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+     text-shadow: 0 0 8px #ff2bd6,
+                 0 0 18px #ff2bd6;
+}
+.boton{
+    display:flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+.btn{
+    color:#ff2bd6;
+    width: 20%;
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
