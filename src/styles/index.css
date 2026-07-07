@@ -79,3 +79,17 @@ body{
     width: 20%;
     
 }
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 50vw;
+    color: white;
+
+}
+.heart{
+    font-size: 3vw;
+     text-shadow: 0 0 8px #ff2bd6,
+                 0 0 18px #ff2bd6;
+}

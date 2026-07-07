@@ -31,6 +31,9 @@ const Home = ({ hoursStr, minutesStr, secondsStr, onStop}) => {
 			<div className="boton" aria-label="Ejemplo básico con contorno">
 				<button type="button" className="btn btn-outline-primary"onClick={onStop}>Pause</button>
 			</div>
+			<div className="foot">
+				<footer className="footer" >Hecho con <i className="fa-regular fa-heart heart"></i> por Sara</footer>
+			</div>
 
 		</>
 	);
