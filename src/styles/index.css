@@ -21,7 +21,8 @@ body{
     margin-right: 8vw;
     margin-left: 8vw;
     border-radius: 1.5vw;
-    border: 1px solid blue;
+    border: 2vw solid  blue;
+    border-style: groove;
 }
 .hours{
     display:flex;
